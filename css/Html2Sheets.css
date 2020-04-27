@@ -1,0 +1,54 @@
+
+
+#pages {
+  float:none;
+  display:block;
+}
+.page {
+  display:block;
+  position:relative;
+  page-break-before:always;
+}
+.page-inner {
+  /* outline:1px solid blue; */
+  float:none;
+  
+}
+
+
+@media print {
+  .page-break-before {
+    visibility:hidden;
+    page-break-before:always;
+  }
+}
+
+
+.page-header {
+  position:absolute;
+  top:0;
+}
+
+.page-footer {
+  /* outline: 1px solid green; */
+  position:absolute;
+  bottom:0;
+  
+}
+
+@page {
+  size: 219mm 297mm;
+}
+
+.page-inner h1:first-child,
+.page-inner h2:first-child,
+.page-inner h3:first-child,
+.page-inner h4:first-child,
+.page-inner h5:first-child,
+.page-inner h6:first-child,
+.page-inner p:first-child {
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.border-red { border:2px solid red !important; }

@@ -1,0 +1,113 @@
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.figure-div {
+  /* outline:1px solid green; */
+  max-width:inherit;
+  max-height:inherit;
+  height:inherit;
+  max-height:inherit; 
+}
+.figure-div figure {
+  padding:0.1mm;
+  margin:0.1mm;
+  max-width:inherit;
+  max-height:inherit;
+  height:inherit;
+  max-height:inherit;
+}
+.figure-div .figcaption {
+  position:relative;
+  /* outline:1px solid purple; */
+  width:100%;
+}
+.figure-div .figure-img {
+  text-align:center;
+  max-width:inherit;
+  max-height:inherit;
+  height:inherit;
+  max-height:inherit;
+}
+.figure-div .figure-img img {
+  position:relative;
+  max-width:100%;
+  max-height:inherit;
+}
+
+
+
+
+@media print {
+  #pages {
+    float:none;
+    display:block;
+    position:relative;
+  }
+  .page {
+    margin:none;
+    padding:none;
+    box-shadow:none;
+    border:none;
+  }
+  .page-inner {
+    
+  }
+  .page-footer {
+    
+  }
+}
+
+@media screen {
+  #pages {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    flex-direction:column;
+    float:none;
+  }
+  .page {
+    border:none;
+    margin-top:30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  .page-inner {
+    border:none;
+    outline:none;
+    
+  }
+}
+
+
+
+/* ---------------- FOOTER & HEADER */
+
+.page-header-inner {
+  padding-bottom:3mm;
+  border-bottom:0.25mm solid grey;
+  /* outline:1px solid red; */
+  margin-left:15mm;
+  margin-right:15mm;
+  height:inherit;
+  position:relative;
+  height:inherit;
+}
+.page-header-inner-content {
+  position:absolute;
+  bottom:0;
+  padding-bottom:5mm;
+}
+
+.page-footer-inner {
+  padding-top:3mm;
+  border-top:0.25mm solid grey;
+  /* outline:1px solid red; */
+  margin-left:25mm;
+  margin-right:25mm;
+  display:flex;
+  justify-content:space-between;
+  height:inherit;
+}
