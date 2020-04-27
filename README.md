@@ -1,3 +1,5 @@
+# THIS IS IN BETA STATE, WORK IN PROGRESS
+
 # js-html2sheets
 
 
