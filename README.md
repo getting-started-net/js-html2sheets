@@ -132,5 +132,5 @@ Here is the description of all the parameters.
 
 # License
 
-This Software (file) is published under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
+This Software/Files/Project is published under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.
 
